@@ -24,7 +24,7 @@ fi
 # 写shadowsocks.json配置文件
 cat>/etc/shadowsocks.json<<EOF
 {
-    "server":"0.0.0.0",
+    "server":"108.160.133.253",
     "server_port":$port,
     "local_address": "127.0.0.1",
     "local_port":1080,
